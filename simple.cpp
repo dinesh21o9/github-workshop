@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main()
+{
+    ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
+    srand(chrono::high_resolution_clock::now().time_since_epoch().count());
+    int t;
+    t=1;
+    int m=23;
+    int sum=t+m;
+    cout<<sum<<'\n';
+    return 0;
+}
